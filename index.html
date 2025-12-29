@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sumyya Sadre Alam | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #0f172a;
+            --text: #ffffff;
+            --card: #1e293b;
+            --accent: #fbbf24;
+        }
+
+        .light {
+            --bg: #f8fafc;
+            --text: #0f172a;
+            --card: #e5e7eb;
+            --accent: #f59e0b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            transition: 0.3s;
+        }
+
+        /* NAVBAR */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+        }
+
+        nav a {
+            color: var(--text);
+            margin-left: 18px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: var(--accent);
+        }
+
+        .toggle {
+            cursor: pointer;
+            border: 1px solid var(--accent);
+            padding: 6px 14px;
+            border-radius: 20px;
+            color: var(--accent);
+            font-size: 14px;
+        }
+
+        /* HERO */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 90px 60px;
+            gap: 40px;
+        }
+
+        .hero h1 span {
+            color: var(--accent);
+        }
+
+        .hero p {
+            max-width: 520px;
+            margin: 18px 0;
+            line-height: 1.7;
+        }
+
+        /* TYPING TEXT */
+        #typing {
+            font-size: 22px;
+            color: var(--accent);
+            min-height: 28px;
+        }
+
+        /* AVATAR */
+        .avatar {
+            width: 260px;
+            height: 260px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent), #fde68a);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 70px;
+            color: #000;
+        }
+
+        /* SECTION */
+        section {
+            padding: 80px 60px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            color: var(--accent);
+            margin-bottom: 25px;
+        }
+
+        /* CARDS */
+        .card {
+            background: var(--card);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .card a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 20px;
+            opacity: 0.7;
+        }
+
+        /* MOBILE */
+        @media(max-width:768px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <strong>SumyyaAlam</strong>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <span class="toggle" onclick="toggleTheme()">Toggle</span>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section class="hero" id="home">
+        <div>
+            <h1>Hi, I'm <span>Sumyya Sadre Alam</span></h1>
+            <div id="typing"></div>
+            <p>
+                B.Tech Electronics & Communication Engineering student with strong interest
+                in Web Development, AI & LLM learning, and building meaningful digital products.
+            </p>
+        </div>
+        <div class="avatar">&lt;/&gt;</div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Passionate ECE student with experience in web development, CMS platforms,
+            graphic design, content creation, and continuous learning in AI & LLM technologies.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="grid">
+            <div class="card">Web Development</div>
+            <div class="card">HTML, CSS, JavaScript, Tailwind</div>
+            <div class="card">WordPress & CMS</div>
+            <div class="card">Graphic Design & Content</div>
+            <div class="card">Leadership & Team Management</div>
+            <div class="card">AI & LLM Learning</div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="grid">
+            <div class="card"><a href="https://hygienaofficial.com/" target="_blank">E-Commerce Website</a></div>
+            <div class="card"><a href="https://vehicle-rental-booking-platform.vercel.app/" target="_blank">Vehicle
+                    Rental Platform</a></div>
+            <div class="card"><a href="https://aayshainternational.in/" target="_blank">Aaysha International
+                    Institute</a></div>
+            <div class="card"><a href="https://www.alharmainislamicinstitute.com/" target="_blank">Al Harmain
+                    Institute</a></div>
+            <div class="card"><a href="https://metalstickersindia.in/" target="_blank">Metal Stickers India</a></div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: sumyyasadre05@gmail.com<br>Phone: +91 9060206586</p>
+    </section>
+
+    <footer>© 2025 Sumyya Sadre Alam</footer>
+
+    <script>
+        /* TOGGLE */
+        function toggleTheme() {
+            document.body.classList.toggle("light");
+        }
+
+        /* TYPING EFFECT (CLEAN & READABLE) */
+        const words = [
+            "Web Developer",
+            "ECE Engineer",
+            "AI & LLM Learner",
+            "Creative Designer",
+            "Tech Enthusiast"
+        ];
+
+        let i = 0, j = 0, del = false;
+        const typing = document.getElementById("typing");
+
+        function type() {
+            typing.textContent = words[i].substring(0, j);
+            if (!del && j++ === words[i].length + 10) del = true;
+            if (del && j-- === 0) { del = false; i = (i + 1) % words.length; }
+            setTimeout(type, del ? 50 : 80);
+        }
+        type();
+    </script>
+
+</body>
+
+</html>
