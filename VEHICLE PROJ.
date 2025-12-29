@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vehicle Rental Platform Case Study - 250% booking efficiency increase, 40% reduced operational costs, 10,000+ successful bookings. See how we built a full-stack rental management system.">
+    <title>Vehicle Rental Platform Case Study - DevPortfolio Pro</title>
+    <link rel="stylesheet" href="../css/main.css">
+  
+  <script type="module" async src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fdevportfol7073back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.12"></script>
+  <script type="module" defer src="https://static.rocket.new/rocket-shot.js?v=0.0.2"></script>
+  </head>
+<body class="bg-background text-text-primary">
+    
+    <!-- Navigation Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
+        <nav class="container-custom">
+            <div class="flex items-center justify-between h-20">
+                <a href="../pages/landing_page.html" class="flex items-center gap-3 group">
+                    <svg class="w-10 h-10" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="40" height="40" rx="8" fill="url(#logo-gradient)"/>
+                        <path d="M12 28V12L20 20L28 12V28L20 20L12 28Z" fill="#0F172A" stroke="#00F5FF" stroke-width="2"/>
+                        <defs>
+                            <linearGradient id="logo-gradient" x1="0" y1="0" x2="40" y2="40">
+                                <stop offset="0%" stop-color="#00F5FF"/>
+                                <stop offset="100%" stop-color="#7C3AED"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <span class="font-headline text-xl font-bold text-gradient-primary">DevPortfolio Pro</span>
+                </a>
+
+                <div class="flex items-center gap-6">
+                    <a href="../pages/landing_page.html" class="text-text-secondary hover:text-primary transition-250 font-body">← Back to Portfolio</a>
+                    <a href="https://vehicle-rental-booking-platform.vercel.app/" target="_blank" class="btn-primary">View Live Demo</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="section pt-32 pb-16">
+        <div class="container-custom">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Left: Live Demo Preview -->
+                <div class="relative animate-fade-in">
+                    <div class="relative rounded-2xl overflow-hidden shadow-elevated-lg border border-secondary/20">
+                        <img src="https://img.rocket.new/generatedImages/rocket_gen_img_14b1a912f-1767003220336.png" alt="Vehicle rental platform dashboard showing booking management and real-time vehicle tracking" class="w-full h-auto object-cover" onerror="this.src='https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2940&auto=format&fit=crop'; this.onerror=null;">
+                        <div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
+                    </div>
+                    <div class="absolute -bottom-6 -right-6 bg-surface border border-border rounded-xl p-6 shadow-elevated max-w-xs">
+                        <div class="text-secondary font-bold text-3xl">250%</div>
+                        <div class="text-text-secondary text-sm">Booking Efficiency</div>
+                    </div>
+                </div>
+
+                <!-- Right: Project Overview -->
+                <div class="space-y-8 animate-fade-in stagger-1">
+                    <div>
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="px-4 py-2 bg-secondary/10 text-secondary text-sm font-bold rounded-full">SaaS</span>
+                            <span class="px-4 py-2 bg-primary/10 text-primary text-sm font-bold rounded-full">React Native</span>
+                            <span class="px-4 py-2 bg-accent/10 text-accent text-sm font-bold rounded-full">PostgreSQL</span>
+                        </div>
+                        <h1 class="text-hero font-headline text-gradient-primary mb-4">
+                            Vehicle Rental Management Platform
+                        </h1>
+                        <p class="text-body-lg text-text-secondary">
+                            A comprehensive full-stack rental system with real-time availability tracking, automated pricing algorithms, and integrated payment processing that increased operational efficiency by 250%.
+                        </p>
+                    </div>
+
+                    <!-- Key Metrics -->
+                    <div class="grid grid-cols-3 gap-6">
+                        <div class="card text-center">
+                            <div class="text-accent font-bold text-2xl mb-1">10K+</div>
+                            <div class="text-text-tertiary text-sm">Bookings</div>
+                        </div>
+                        <div class="card text-center">
+                            <div class="text-secondary font-bold text-2xl mb-1">99.8%</div>
+                            <div class="text-text-tertiary text-sm">Uptime</div>
+                        </div>
+                        <div class="card text-center">
+                            <div class="text-primary font-bold text-2xl mb-1">4.9/5</div>
+                            <div class="text-text-tertiary text-sm">Customer Rating</div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://vehicle-rental-booking-platform.vercel.app/" target="_blank" class="btn-primary text-center">
+                            <span class="flex items-center justify-center gap-2">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                                </svg>
+                                Launch Live Demo
+                            </span>
+                        </a>
+                        <a href="#contact" class="btn-outline text-center">Discuss Similar Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Timeline -->
+    <section class="section bg-background-light">
+        <div class="container-custom">
+            <div class="text-center mb-16">
+                <h2 class="text-h1 font-headline mb-4">12-Week Sprint Methodology</h2>
+                <p class="text-body-lg text-text-secondary max-w-3xl mx-auto">
+                    Agile development approach with client collaboration checkpoints and feature delivery milestones
+                </p>
+            </div>
+
+            <div class="max-w-5xl mx-auto">
+                <!-- Sprint 1-3 -->
+                <div class="card mb-6 cursor-pointer hover:border-secondary/50 transition-250" onclick="toggleTimeline(this)">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center">
+                                <span class="text-secondary font-bold">1-3</span>
+                            </div>
+                            <div>
+                                <h3 class="text-h4 font-headline">Foundation & Core Booking System</h3>
+                                <p class="text-text-secondary text-sm">User authentication, vehicle catalog, and booking engine</p>
+                            </div>
+                        </div>
+                        <svg class="w-6 h-6 text-secondary transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </div>
+                    <div class="hidden mt-6 pt-6 border-t border-border space-y-4">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="space-y-2">
+                                <h4 class="font-semibold text-text-primary">Sprint Deliverables</h4>
+                                <ul class="space-y-2 text-text-secondary text-sm">
+                                    <li class="flex items-start gap-2">
+                                        <svg class="w-5 h-5 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                                        JWT-based authentication system
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <svg class="w-5 h-5 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                                        Vehicle database with filtering
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <svg class="w-5 h-5 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                                        Real-time availability checking
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <svg class="w-5 h-5 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                                        Booking conflict resolution
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="space-y-2">
+                                <h4 class="font-semibold text-text-primary">Client Collaboration</h4>
+                                <p class="text-text-secondary text-sm italic">"The team delivered a robust booking system that handled our complex requirements perfectly. The real-time availability feature alone saved us countless hours of manual coordination."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sprint 4-6 -->
+                <div class="card mb-6 cursor-pointer hover:border-secondary/50 transition-250" onclick="toggleTimeline(this)">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+                                <span class="text-primary font-bold">4-6</span>
+                            </div>
+                            <div>
+                                <h3 class="text-h4 font-headline">Advanced Features & Mobile App</h3>
+                                <p class="text-text-secondary text-sm">GPS tracking, dynamic pricing, and React Native mobile apps</p>
+                            </div>
+                        </div>
+                        <svg class="w-6 h-6 text-secondary transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </div>
+                    <div class="hidden mt-6 pt-6 border-t border-border space-y-4">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="space-y-2">
+                                <h4 class="font-semibold text-text-primary">Technical Innovations</h4>
+                                <ul class="space-y-2 text-text-secondary text-sm">
+                                    <li class="flex items-start gap-2">
+                                        <svg class="w-5 h-5 text-primary mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/></svg>
+                                        Google Maps API for GPS tracking
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <svg class="w-5 h-5 text-primary mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z"/><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clip-rule="evenodd"/></svg>
+                                        ML-based dynamic pricing engine
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <svg class="w-5 h-5 text-primary mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+                                        Push notifications system
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="space-y-2">
+                                <h4 class="font-semibold text-text-primary">Mobile App Features</h4>
+                                <ul class="space-y-2 text-text-secondary text-sm">
+                                    <li>• iOS and Android native apps</li>
+                                    <li>• Offline booking capability</li>
+                                    <li>• QR code vehicle check-in</li>
+                                    <li>• In-app chat support</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sprint 7-9 -->
+                <div class="card mb-6 cursor-pointer hover:border-secondary/50 transition-250" onclick="toggleTimeline(this)">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center">
+                                <span class="text-accent font-bold">7-9</span>
+                            </div>
+                            <div>
+                                <h3 class="text-h4 font-headline">Admin Dashboard & Analytics</h3>
+                                <p class="text-text-secondary text-sm">Fleet management, analytics, and automated maintenance scheduling</p>
+                            </div>
+                        </div>
+                        <svg class="w-6 h-6 text-secondary transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </div>
+                    <div class="hidden mt-6 pt-6 border-t border-border space-y-4">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="space-y-2">
+                                <h4 class="font-semibold text-text-primary">Dashboard Features</h4>
+                                <ul class="space-y-2 text-text-secondary text-sm">
+                                    <li>• Real-time booking analytics</li>
+                                    <li>• Revenue forecasting charts</li>
+                                    <li>• Fleet utilization metrics</li>
+                                    <li>• Customer behavior insights</li>
+                                    <li>• Automated report generation</li>
+                                </ul>
+                            </div>
+                            <div class="space-y-2">
+                                <h4 class="font-semibold text-text-primary">Automation</h4>
+                                <ul class="space-y-2 text-text-secondary text-sm">
+                                    <li>• Maintenance reminders based on mileage</li>
+                                    <li>• Insurance expiry alerts</li>
+                                    <li>• Automated invoice generation</li>
+                                    <li>• Smart vehicle assignment algorithm</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sprint 10-12 -->
+                <div class="card cursor-pointer hover:border-secondary/50 transition-250" onclick="toggleTimeline(this)">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-lg bg-success/10 flex items-center justify-center">
+                                <svg class="w-6 h-6 text-success" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                            </div>
+                            <div>
+                                <h3 class="text-h4 font-headline">Testing, Optimization & Launch</h3>
+                                <p class="text-text-secondary text-sm">Load testing, performance optimization, and production deployment</p>
+                            </div>
+                        </div>
+                        <svg class="w-6 h-6 text-secondary transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </div>
+                    <div class="hidden mt-6 pt-6 border-t border-border space-y-4">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="space-y-2">
+                                <h4 class="font-semibold text-text-primary">Launch Metrics</h4>
+                                <ul class="space-y-2 text-text-secondary text-sm">
+                                    <li>• 99.8% uptime in first month</li>
+                                    <li>• 1,200+ bookings in first week</li>
+                                    <li>• 4.9/5 customer satisfaction</li>
+                                    <li>• Zero critical production bugs</li>
+                                </ul>
+                            </div>
+                            <div class="space-y-2">
+                                <h4 class="font-semibold text-text-primary">Optimization Results</h4>
+                                <ul class="space-y-2 text-text-secondary text-sm">
+                                    <li>• API response time: 120ms avg</li>
+                                    <li>• Mobile app size: 8.5MB</li>
+                                    <li>• Database queries optimized 70%</li>
+                                    <li>• CDN integration for assets</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Deep-Dive -->
+    <section class="section">
+        <div class="container-custom">
+            <div class="text-center mb-16">
+                <h2 class="text-h1 font-headline mb-4">Microservices Architecture</h2>
+                <p class="text-body-lg text-text-secondary max-w-3xl mx-auto">
+                    Scalable architecture designed for high availability and seamless scaling
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="card group hover:border-secondary/50 transition-250">
+                    <div class="w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-250">
+                        <svg class="w-6 h-6 text-secondary" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+                    </div>
+                    <h3 class="text-h4 font-headline mb-2">Booking Service</h3>
+                    <ul class="space-y-2 text-text-secondary text-sm">
+                        <li>• Node.js microservice</li>
+                        <li>• Event-driven architecture</li>
+                        <li>• RabbitMQ message queue</li>
+                        <li>• CQRS pattern implementation</li>
+                    </ul>
+                </div>
+
+                <div class="card group hover:border-primary/50 transition-250">
+                    <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-250">
+                        <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/></svg>
+                    </div>
+                    <h3 class="text-h4 font-headline mb-2">Location Service</h3>
+                    <ul class="space-y-2 text-text-secondary text-sm">
+                        <li>• Python Flask service</li>
+                        <li>• Google Maps integration</li>
+                        <li>• Real-time GPS tracking</li>
+                        <li>• Geofencing capabilities</li>
+                    </ul>
+                </div>
+
+                <div class="card group hover:border-accent/50 transition-250">
+                    <div class="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-250">
+                        <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20"><path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z"/><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clip-rule="evenodd"/></svg>
+                    </div>
+                    <h3 class="text-h4 font-headline mb-2">Payment Service</h3>
+                    <ul class="space-y-2 text-text-secondary text-sm">
+                        <li>• Stripe integration</li>
+                        <li>• PCI-DSS compliant</li>
+                        <li>• Automated refunds</li>
+                        <li>• Multi-currency support</li>
+                    </ul>
+                </div>
+
+                <div class="card group hover:border-secondary/50 transition-250">
+                    <div class="w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-250">
+                        <svg class="w-6 h-6 text-secondary" fill="currentColor" viewBox="0 0 20 20"><path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z"/><path d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z"/></svg>
+                    </div>
+                    <h3 class="text-h4 font-headline mb-2">Notification Service</h3>
+                    <ul class="space-y-2 text-text-secondary text-sm">
+                        <li>• Firebase Cloud Messaging</li>
+                        <li>• Email via SendGrid</li>
+                        <li>• SMS via Twilio</li>
+                        <li>• Template management</li>
+                    </ul>
+                </div>
+
+                <div class="card group hover:border-primary/50 transition-250">
+                    <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-250">
+                        <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20"><path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/><path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"/></svg>
+                    </div>
+                    <h3 class="text-h4 font-headline mb-2">Analytics Service</h3>
+                    <ul class="space-y-2 text-text-secondary text-sm">
+                        <li>• Real-time data processing</li>
+                        <li>• Apache Kafka streaming</li>
+                        <li>• Custom dashboard metrics</li>
+                        <li>• Predictive analytics</li>
+                    </ul>
+                </div>
+
+                <div class="card group hover:border-accent/50 transition-250">
+                    <div class="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-250">
+                        <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20"><path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z"/><path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z"/><path d="M17 5c0 1.657-3.134 3-7 3S3 6.657 3 5s3.134-3 7-3 7 1.343 7 3z"/></svg>
+                    </div>
+                    <h3 class="text-h4 font-headline mb-2">Database Layer</h3>
+                    <ul class="space-y-2 text-text-secondary text-sm">
+                        <li>• PostgreSQL (primary)</li>
+                        <li>• Redis for caching</li>
+                        <li>• Master-slave replication</li>
+                        <li>• Automated backups</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Before/After Workflow -->
+    <section class="section bg-background-light">
+        <div class="container-custom">
+            <div class="text-center mb-16">
+                <h2 class="text-h1 font-headline mb-4">Manual vs Automated Workflow</h2>
+                <p class="text-body-lg text-text-secondary max-w-3xl mx-auto">
+                    Dramatic efficiency improvements through intelligent automation
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- Before: Manual Process -->
+                <div class="card border-error/30">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-lg bg-error/20 flex items-center justify-center">
+                            <svg class="w-6 h-6 text-error" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                        </div>
+                        <h3 class="text-h3 font-headline text-error">Manual Process</h3>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="p-3 bg-background rounded-lg">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-text-secondary text-sm font-semibold">1. Phone Call Inquiry</span>
+                                <span class="text-error text-xs">15 min</span>
+                            </div>
+                            <p class="text-text-tertiary text-xs">Customer calls, agent checks availability manually</p>
+                        </div>
+                        <div class="p-3 bg-background rounded-lg">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-text-secondary text-sm font-semibold">2. Excel Lookup</span>
+                                <span class="text-error text-xs">10 min</span>
+                            </div>
+                            <p class="text-text-tertiary text-xs">Agent searches Excel sheet for vehicle availability</p>
+                        </div>
+                        <div class="p-3 bg-background rounded-lg">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-text-secondary text-sm font-semibold">3. Manual Quote</span>
+                                <span class="text-error text-xs">8 min</span>
+                            </div>
+                            <p class="text-text-tertiary text-xs">Calculate pricing with calculator, email quote</p>
+                        </div>
+                        <div class="p-3 bg-background rounded-lg">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-text-secondary text-sm font-semibold">4. Payment Processing</span>
+                                <span class="text-error text-xs">12 min</span>
+                            </div>
+                            <p class="text-text-tertiary text-xs">Take credit card details over phone, process manually</p>
+                        </div>
+                        <div class="p-3 bg-background rounded-lg">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-text-secondary text-sm font-semibold">5. Paperwork</span>
+                                <span class="text-error text-xs">20 min</span>
+                            </div>
+                            <p class="text-text-tertiary text-xs">Create contract, send for signature, file documents</p>
+                        </div>
+                        <div class="pt-3 border-t border-border">
+                            <div class="flex items-center justify-between">
+                                <span class="font-bold text-text-primary">Total Time</span>
+                                <span class="font-bold text-error text-lg">65 minutes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- After: Automated System -->
+                <div class="card border-accent/30">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-lg bg-accent/20 flex items-center justify-center">
+                            <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        </div>
+                        <h3 class="text-h3 font-headline text-accent">Automated System</h3>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="p-3 bg-background rounded-lg">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-text-secondary text-sm font-semibold">1. Browse & Filter</span>
+                                <span class="text-accent text-xs">2 min</span>
+                            </div>
+                            <p class="text-text-tertiary text-xs">Customer browses available vehicles with filters</p>
+                        </div>
+                        <div class="p-3 bg-background rounded-lg">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-text-secondary text-sm font-semibold">2. Real-time Check</span>
+                                <span class="text-accent text-xs">Instant</span>
+                            </div>
+                            <p class="text-text-tertiary text-xs">System shows real-time availability from all locations</p>
+                        </div>
+                        <div class="p-3 bg-background rounded-lg">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-text-secondary text-sm font-semibold">3. Dynamic Pricing</span>
+                                <span class="text-accent text-xs">Instant</span>
+                            </div>
+                            <p class="text-text-tertiary text-xs">AI calculates optimal price based on demand</p>
+                        </div>
+                        <div class="p-3 bg-background rounded-lg">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-text-secondary text-sm font-semibold">4. Secure Checkout</span>
+                                <span class="text-accent text-xs">3 min</span>
+                            </div>
+                            <p class="text-text-tertiary text-xs">One-click payment with saved cards via Stripe</p>
+                        </div>
+                        <div class="p-3 bg-background rounded-lg">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-text-secondary text-sm font-semibold">5. Digital Contract</span>
+                                <span class="text-accent text-xs">1 min</span>
+                            </div>
+                            <p class="text-text-tertiary text-xs">E-signature via DocuSign, instant confirmation</p>
+                        </div>
+                        <div class="pt-3 border-t border-border">
+                            <div class="flex items-center justify-between">
+                                <span class="font-bold text-text-primary">Total Time</span>
+                                <span class="font-bold text-accent text-lg">6 minutes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-8">
+                <div class="inline-flex items-center gap-3 px-6 py-3 bg-accent/10 border border-accent/30 rounded-xl">
+                    <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"/></svg>
+                    <div>
+                        <div class="font-bold text-accent text-2xl">91% Time Reduction</div>
+                        <div class="text-text-secondary text-sm">From 65 minutes to 6 minutes per booking</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonial -->
+    <section class="section">
+        <div class="container-custom max-w-4xl">
+            <div class="card">
+                <div class="flex items-start gap-6">
+                    <img src="https://img.rocket.new/generatedImages/rocket_gen_img_13c7bbd1e-1763295865601.png" alt="Michael Rodriguez, CTO testimonial" class="w-24 h-24 rounded-full object-cover flex-shrink-0" onerror="this.src='https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2940&auto=format&fit=crop'; this.onerror=null;">
+                    <div>
+                        <div class="flex items-center gap-1 mb-4">
+                            <svg class="w-5 h-5 text-warning" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            <svg class="w-5 h-5 text-warning" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            <svg class="w-5 h-5 text-warning" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            <svg class="w-5 h-5 text-warning" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            <svg class="w-5 h-5 text-warning" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        </div>
+                        <p class="text-text-primary text-lg mb-4">
+                            "This platform revolutionized our entire rental operation. The team built a sophisticated system with real-time GPS tracking, automated pricing algorithms, and seamless payment integration. We've processed 10,000+ bookings with 99.8% uptime and reduced operational costs by 40%. The microservices architecture allows us to scale effortlessly as we grow. Outstanding technical execution and business impact!"
+                        </p>
+                        <div>
+                            <div class="text-text-primary font-semibold">Michael Rodriguez</div>
+                            <div class="text-text-secondary text-sm">Operations Director, RentEasy Fleet Management</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Highlights -->
+    <section class="section bg-background-light">
+        <div class="container-custom">
+            <div class="text-center mb-16">
+                <h2 class="text-h1 font-headline mb-4">Unique Technical Solutions</h2>
+                <p class="text-body-lg text-text-secondary max-w-3xl mx-auto">
+                    Innovative features that set this platform apart
+                </p>
+            </div>
+
+            <div class="space-y-8 max-w-4xl mx-auto">
+                <!-- GPS Vehicle Tracking -->
+                <div class="card">
+                    <h3 class="text-h3 font-headline mb-4">Real-time GPS Vehicle Tracking</h3>
+                    <p class="text-text-secondary mb-4">Google Maps integration with live vehicle location updates and geofencing</p>
+                    <div class="code-block">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-text-secondary text-sm font-code">services/location-tracking.js</span>
+                        </div>
+                        <pre class="text-sm"><code><span class="text-secondary">const</span> <span class="text-text-primary">trackVehicle</span> = <span class="text-secondary">async</span> (vehicleId) => {
+  <span class="text-secondary">const</span> <span class="text-text-primary">location</span> = <span class="text-secondary">await</span> gps.<span class="text-primary">getCurrentPosition</span>(vehicleId);
+  
+  <span class="text-text-secondary">// Check geofence boundaries</span>
+  <span class="text-secondary">if</span> (!<span class="text-primary">isWithinGeofence</span>(location, allowedZones)) {
+    <span class="text-secondary">await</span> notifications.<span class="text-primary">alert</span>({
+      type: <span class="text-accent">'GEOFENCE_VIOLATION'</span>,
+      vehicleId,
+      location
+    });
+  }
+  
+  <span class="text-text-secondary">// Broadcast to connected clients</span>
+  io.<span class="text-primary">emit</span>(<span class="text-accent">'vehicle:location'</span>, { vehicleId, location });
+};</code></pre>
+                    </div>
+                </div>
+
+                <!-- Dynamic Pricing Engine -->
+                <div class="card">
+                    <h3 class="text-h3 font-headline mb-4">AI-Powered Dynamic Pricing</h3>
+                    <p class="text-text-secondary mb-4">Machine learning model that adjusts prices based on demand, season, and availability</p>
+                    <div class="code-block">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-text-secondary text-sm font-code">services/pricing-engine.js</span>
+                        </div>
+                        <pre class="text-sm"><code><span class="text-secondary">function</span> <span class="text-primary">calculateDynamicPrice</span>(vehicle, dates, demand) {
+  <span class="text-secondary">const</span> <span class="text-text-primary">basePrice</span> = vehicle.dailyRate;
+  <span class="text-secondary">const</span> <span class="text-text-primary">demandMultiplier</span> = <span class="text-primary">getDemandFactor</span>(dates, demand);
+  <span class="text-secondary">const</span> <span class="text-text-primary">seasonalRate</span> = <span class="text-primary">getSeasonalMultiplier</span>(dates);
+  <span class="text-secondary">const</span> <span class="text-text-primary">availabilityBonus</span> = <span class="text-primary">getAvailabilityDiscount</span>(vehicle);
+  
+  <span class="text-secondary">return</span> basePrice * demandMultiplier * seasonalRate * availabilityBonus;
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="section">
+        <div class="container-custom max-w-4xl text-center">
+            <h2 class="text-h1 font-headline mb-4">Build Your Rental Management Platform</h2>
+            <p class="text-body-lg text-text-secondary mb-8 max-w-2xl mx-auto">
+                Get a custom proposal for your rental business with similar automation and efficiency gains
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="../pages/landing_page.html#contact" class="btn-primary">
+                    <span class="flex items-center justify-center gap-2">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                        </svg>
+                        Schedule Free Consultation
+                    </span>
+                </a>
+                <a href="https://vehicle-rental-booking-platform.vercel.app/" target="_blank" class="btn-outline">Test Interactive Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-background-light border-t border-border py-12">
+        <div class="container-custom">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <a href="../pages/landing_page.html" class="flex items-center gap-3">
+                    <svg class="w-10 h-10" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="40" height="40" rx="8" fill="url(#footer-logo-gradient)"/>
+                        <path d="M12 28V12L20 20L28 12V28L20 20L12 28Z" fill="#0F172A" stroke="#00F5FF" stroke-width="2"/>
+                        <defs>
+                            <linearGradient id="footer-logo-gradient" x1="0" y1="0" x2="40" y2="40">
+                                <stop offset="0%" stop-color="#00F5FF"/>
+                                <stop offset="100%" stop-color="#7C3AED"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <span class="font-headline text-xl font-bold text-gradient-primary">DevPortfolio Pro</span>
+                </a>
+                <p class="text-text-tertiary text-sm">© 2025 DevPortfolio Pro. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleTimeline(element) {
+            const content = element.querySelector('div.hidden');
+            const icon = element.querySelector('svg');
+            
+            if (content) {
+                content.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
+            }
+        }
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
