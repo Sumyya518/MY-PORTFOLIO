@@ -148,7 +148,7 @@ Financial tool for loan, investment, and budget calculations.
 
 ## 📄 Resume
 
-📥 **[Download Resume](#)** *(Add your resume link here)*
+📥 
 
 ---
 
@@ -157,8 +157,8 @@ Financial tool for loan, investment, and budget calculations.
 I’m always interested in **new opportunities, collaborations, and conversations about web development and technology**.
 
 - 📧 Email: sumyyasadre05@gmail.com
-- 💼 LinkedIn: *Add LinkedIn link*
-- 🧑‍💻 GitHub: *Add GitHub profile link*
+- 💼 LinkedIn: https://www.linkedin.com/in/sumyya-sadre-alam/
+- 🧑‍💻 GitHub: https://github.com/Sumyya518
 
 ---
 
