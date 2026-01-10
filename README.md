@@ -94,7 +94,7 @@ Strong engineering fundamentals from B.Tech ECE curriculum.
 E-commerce platform with modern design and seamless shopping experience.
 
 **Tech:** HTML, CSS, JavaScript  
-🔗 *View Live*
+🔗 https://hygienaofficial.com/
 
 ---
 
@@ -106,11 +106,11 @@ Complete booking system with search functionality and mobile-first design.
 
 ---
 
-### **03. Aaysha International**
+### **03. Aaysha International Institute**
 Professional educational institute website with structured programs and student resources.
 
 **Tech:** HTML, CSS, UI Design  
-🔗 *View Live*
+🔗 www.aayshainternationalinstitute.in
 
 ---
 
@@ -118,7 +118,7 @@ Professional educational institute website with structured programs and student 
 Elegant website with structured content and accessible layout.
 
 **Tech:** HTML, CSS, Responsive Design  
-🔗 *View Live*
+🔗 www.alharmainislamicinstitute.com
 
 ---
 
@@ -126,7 +126,7 @@ Elegant website with structured content and accessible layout.
 Product showcase platform with detailed catalog and optimized performance.
 
 **Tech:** HTML, CSS, JavaScript  
-🔗 *View Live*
+🔗 www.metalstickersindia.in
 
 ---
 
@@ -164,7 +164,7 @@ E-commerce website with product catalog and responsive UI.
 
 I’m always interested in **new opportunities, collaborations, and conversations about web development and technology**.
 
-- 📧 Email: *Add your email*
+- 📧 Email: sumyyasadre05@gmail.com
 - 💼 LinkedIn: *Add LinkedIn link*
 - 🧑‍💻 GitHub: *Add GitHub profile link*
 
