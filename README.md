@@ -102,7 +102,7 @@ E-commerce platform with modern design and seamless shopping experience.
 Complete booking system with search functionality and mobile-first design.
 
 **Tech:** HTML, Tailwind CSS, JavaScript  
-🔗 *View Live*
+🔗 https://vehicle-rental-booking-platform.vercel.app/
 
 ---
 
@@ -134,7 +134,7 @@ Product showcase platform with detailed catalog and optimized performance.
 Productivity app with add, edit, and delete functionality.
 
 **Tech:** JavaScript, HTML, CSS  
-📂 *View Code*
+📂 https://github.com/Sumyya518/to-do-list
 
 ---
 
@@ -142,15 +142,7 @@ Productivity app with add, edit, and delete functionality.
 Financial tool for loan, investment, and budget calculations.
 
 **Tech:** JavaScript, HTML, CSS  
-📂 *View Code*
-
----
-
-### **08. Sun Enterprises**
-E-commerce website with product catalog and responsive UI.
-
-**Tech:** HTML, CSS, JavaScript  
-📂 *View Code*
+📂 https://github.com/Sumyya518/financialcalculator
 
 ---
 
