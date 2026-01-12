@@ -1,48 +1,52 @@
-/* PAGE COMMON */
-.page {
-    padding: 80px 60px;
-    max-width: 1000px;
-    margin: auto;
+/* PROJECTS PAGE */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
 }
 
-.page-title {
-    font-size: 42px;
-    margin-bottom: 25px;
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.25);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h2 {
+    margin: 15px 0 10px;
+    font-size: 18px;
     color: #fbbf24;
 }
 
-.about-text {
-    font-size: 18px;
-    line-height: 1.8;
-    margin-bottom: 40px;
+.card p {
+    font-size: 14px;
+    line-height: 1.6;
     opacity: 0.9;
 }
 
-/* EDUCATION */
-.education h3 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-.edu-card {
-    background: #1e293b;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.edu-card h4 {
-    color: #fbbf24;
-    margin-bottom: 5px;
-}
-
-.edu-card span {
-    font-size: 14px;
-    opacity: 0.8;
-}
-
-/* ACTIVE NAV */
-nav .active {
-    color: #fbbf24;
+.btn {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 16px;
+    background: #fbbf24;
+    color: #111;
     font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
 }
