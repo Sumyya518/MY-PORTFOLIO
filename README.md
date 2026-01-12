@@ -2,60 +2,47 @@
 
 **B.Tech Electronics & Communication Engineering Student | Web Developer | UI Designer**
 
-📍 India  
-📫 Open to opportunities & collaborations
+> Building clean, responsive, and intelligent digital experiences by blending engineering fundamentals with modern web technologies.
 
 ---
 
-## 👋 About Me
+## 🚀 About Me
 
-I am an **Electronics and Communication Engineering (ECE)** student with a strong foundation in electronics, communication systems, and computing, combined with hands-on expertise in **full-stack web development**.
+I am an **Electronics and Communication Engineering (ECE)** student with a strong foundation in electronics, communication systems, and computing. My academic journey has equipped me with knowledge in **signal processing, embedded systems, digital communications, and microcontroller programming**.
 
-My academic journey has equipped me with solid knowledge of **signal processing, embedded systems, digital communications, and microcontrollers**, while my practical experience lies in building **modern, responsive, and performance-optimized web applications**.
+Alongside my core ECE background, I specialize in **full-stack web development**, creating seamless and high-performance applications using modern frameworks and tools. I focus on **clean UI design, responsive layouts, scalability, and maintainable code architecture**.
 
-I specialize in developing seamless user experiences using **React, Next.js, Node.js**, and modern CSS frameworks. From designing intuitive frontends to implementing scalable backend systems, I focus on **clean code architecture and real-world usability**.
-
-Beyond traditional development, I actively explore **Artificial Intelligence and Machine Learning**, integrating intelligent features using **Python and OpenAI APIs**. I am particularly interested in how **LLMs can enhance user experiences and automate complex workflows**.
-
-My unique blend of **hardware knowledge + software skills** allows me to approach problems holistically and build solutions that bridge the physical and digital worlds.
+I am also actively exploring **Artificial Intelligence and Machine Learning**, integrating intelligent features into applications using **Python and OpenAI APIs**. My interdisciplinary skill set allows me to approach problems holistically—bridging hardware and software to build innovative, real-world solutions.
 
 ---
 
 ## 💼 Experience & Achievements
 
 ### **Freelance Web Developer**  
-**2023 – Present**
+📅 *2023 – Present*
 
-- Delivered **8+ production-ready websites** across e-commerce, education, and business domains  
-- Specialized in **responsive, SEO-optimized, high-performance** websites  
-- Managed full project lifecycle:  
-  **Client consultation → UI design → Development → Deployment → Maintenance**
+- Delivered **8+ production-ready websites** across industries including **e-commerce, education, and business services**
+- Specialized in **responsive UI, SEO optimization, and performance-focused design**
+- Managed complete project lifecycles from **client consultation → design → deployment → maintenance**
 
-#### Key Highlights
-- 🚀 **8+ Live Websites Deployed**
-- ⭐ **100% Client Satisfaction**
-- 🛠️ **15+ Technologies Mastered**
+**Highlights**
+- 🌐 **8+ Live Websites Deployed**
+- ✅ **100% Client Satisfaction**
+- 🧠 **15+ Technologies Mastered**
 
 ---
 
-## 🧠 Skills & Expertise
+## 🛠️ Skills & Expertise
 
 ### 🎨 Frontend Development
-Crafting pixel-perfect, responsive interfaces using modern frameworks.
-
 - React  
 - Next.js  
 - Tailwind CSS  
-- HTML5  
-- CSS3  
+- HTML5, CSS3  
 - JavaScript (ES6+)  
-- Responsive Design  
-
----
+- Responsive & Mobile-First Design  
 
 ### ⚙️ Backend Development
-Building scalable and secure server-side applications.
-
 - Node.js  
 - Express.js  
 - MongoDB  
@@ -63,24 +50,16 @@ Building scalable and secure server-side applications.
 - Authentication & Authorization  
 - Database Design  
 
----
-
 ### 🤖 AI & Developer Tools
-Integrating AI capabilities and using industry-standard tools.
-
 - Python  
 - OpenAI APIs  
 - Git & GitHub  
 - Docker  
 - Postman  
 - AWS  
-- CI/CD  
+- CI/CD Pipelines  
 
----
-
-### 🔌 Core ECE Knowledge
-Strong engineering fundamentals from B.Tech ECE curriculum.
-
+### 📡 Core ECE Knowledge
 - Signal Processing  
 - Embedded Systems  
 - Microcontrollers  
@@ -88,79 +67,79 @@ Strong engineering fundamentals from B.Tech ECE curriculum.
 
 ---
 
-## 🚀 Selected Projects
+## 📂 Selected Projects
 
 ### **01. Hygiena Official**
-E-commerce platform with modern design and seamless shopping experience.
-
+E-commerce platform with modern UI, seamless shopping experience, and fully responsive layouts.  
 **Tech:** HTML, CSS, JavaScript  
-🔗 https://hygienaofficial.com/
+🔗 *View Live*
 
 ---
 
 ### **02. Vehicle Rental Platform**
-Complete booking system with search functionality and mobile-first design.
-
+Complete booking system with intuitive UI, search functionality, and mobile-first design.  
 **Tech:** HTML, Tailwind CSS, JavaScript  
-🔗 https://vehicle-rental-booking-platform.vercel.app/
+🔗 *View Live*
 
 ---
 
-### **03. Aaysha International Institute**
-Professional educational institute website with structured programs and student resources.
-
+### **03. Aaysha International**
+Professional educational institute website with structured courses, faculty profiles, and student resources.  
 **Tech:** HTML, CSS, UI Design  
-🔗 www.aayshainternationalinstitute.in
+🔗 *View Live*
 
 ---
 
 ### **04. Al Harmain Islamic Institute**
-Elegant website with structured content and accessible layout.
-
+Elegant institute website with accessible content structure and responsive design.  
 **Tech:** HTML, CSS, Responsive Design  
-🔗 www.alharmainislamicinstitute.com
+🔗 *View Live*
 
 ---
 
 ### **05. Metal Stickers India**
-Product showcase platform with detailed catalog and optimized performance.
-
+Product showcase platform with optimized performance and professional catalog presentation.  
 **Tech:** HTML, CSS, JavaScript  
-🔗 www.metalstickersindia.in
+🔗 *View Live*
 
 ---
 
 ### **06. To-Do List App**
-Productivity app with add, edit, and delete functionality.
-
+Productivity app with add, edit, and delete task functionality.  
 **Tech:** JavaScript, HTML, CSS  
-📂 https://github.com/Sumyya518/to-do-list
+🔗 *View Code*
 
 ---
 
 ### **07. Financial Calculator**
-Financial tool for loan, investment, and budget calculations.
-
+Comprehensive tool for loan, investment, and budget calculations.  
 **Tech:** JavaScript, HTML, CSS  
-📂 https://github.com/Sumyya518/financialcalculator
+🔗 *View Code*
+
+---
+
+### **08. Sun Enterprises**
+E-commerce website with product catalog, cart functionality, and responsive UI.  
+**Tech:** HTML, CSS, JavaScript  
+🔗 *View Code*
 
 ---
 
 ## 📄 Resume
 
-📥 
+📥 **[Download Resume](#)**
 
 ---
 
-## 🤝 Get In Touch
+## 📬 Get In Touch
 
-I’m always interested in **new opportunities, collaborations, and conversations about web development and technology**.
+I’m always open to **new opportunities, collaborations, and tech discussions**.
 
-- 📧 Email: sumyyasadre05@gmail.com
-- 💼 LinkedIn: https://www.linkedin.com/in/sumyya-sadre-alam/
-- 🧑‍💻 GitHub: https://github.com/Sumyya518
+- 📧 Email  
+- 💼 LinkedIn  
+- 🧑‍💻 GitHub  
 
 ---
 
 ```js
-const status = "Open to opportunities 🚀";
+const status = "Open to opportunities";
